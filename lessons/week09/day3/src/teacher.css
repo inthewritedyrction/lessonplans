@@ -109,3 +109,40 @@ table.mis { width: 100%; border-collapse: collapse; font-size: 8.1pt; }
 .p1 .ros td { padding: 1.6px 4px; }
 .p1 .ros td.p, .p1 .ros td.s { font-size: 7.3pt; }
 .p1 .check { font-size: 7.9pt; }
+
+/* ---- Large-print teacher copy (Ms. Briggs: body 10–11.5pt) ---- */
+html { font-size: 11pt; line-height: 1.28; }
+.hbar .tt { font-size: 13pt; }
+.hbar .st { font-size: 9.5pt; }
+.hbar .min { font-size: 11pt; }
+.hbar .chip { font-size: 8pt; }
+.seg { gap: 14px; }
+.seg .left { flex: 0 0 3.55in; }
+.thumbimg { width: 3.55in; }
+.plabel { font-size: 8pt; }
+.beat { margin-bottom: 5px; }
+.beat .k { flex: 0 0 1.1in; font-size: 8pt; }
+.pr { font-size: 6.8pt; }
+.leafbar { font-size: 10.5pt; }
+.flow div { font-size: 8.4pt; }
+.lookfor { font-size: 10pt; }
+.card { font-size: 10.5pt; }
+.card .h { font-size: 8pt; }
+h1 { font-size: 18pt; }
+.srcline { font-size: 10pt; }
+table.ros { font-size: 10pt; }
+.ros td.p, .ros td.s { font-size: 9.4pt; }
+.ros td.p { width: 1.45in; }
+.ros td.s { width: 0.75in; }
+.check { font-size: 10.2pt; }
+table.key, table.mis { font-size: 10pt; }
+.key td.r { width: 1.0in; }
+.ph { font-size: 9pt; }
+/* page 1 no longer squeezed */
+.p1 .card { font-size: 10.5pt; line-height: 1.28; padding: 5px 10px 6px; margin-bottom: 6px; }
+.p1 h1 { font-size: 18pt; }
+.p1 .srcline { font-size: 10pt; }
+.p1 table.ros { font-size: 10pt; }
+.p1 .ros td { padding: 2.5px 4px; }
+.p1 .ros td.p, .p1 .ros td.s { font-size: 9.4pt; }
+.p1 .check { font-size: 10.2pt; }
