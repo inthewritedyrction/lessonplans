@@ -29,8 +29,8 @@ def walk(box):
 
 def build_packet():
     doc = HTML(SRC / "student_packet.html").render()
-    if len(doc.pages) != 4:
-        sys.exit(f"Student packet must be 4 pages; got {len(doc.pages)}")
+    if len(doc.pages) != 5:
+        sys.exit(f"Student packet must be 5 pages; got {len(doc.pages)}")
     regions = {}
     for page_no, page in enumerate(doc.pages, 1):
         for box in walk(page._page_box):

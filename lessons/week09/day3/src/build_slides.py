@@ -213,7 +213,7 @@ notes(s, "SAY: Take out yesterday's Tone and Mood Map, page 2. Go to Row M.\n"
 
 # ---------------------------------------------------------------- 5 · Theme Ladder
 s = new_slide(5)
-header(s, "02", BLUE_D, "The Theme Ladder", "Climb from a topic to an arguable theme.", "PACKET P. 1 · BOX 02", BLUE)
+header(s, "02", BLUE_D, "The Theme Ladder", "Climb from a topic to an arguable theme.", "PACKET PP. 1–2 · BOX 02", BLUE)
 steps = [("1 · TOPIC", "one word", "hope", 4.35),
          ("2 · WHAT THE PLAY SAYS", "about this play", "The play is about holding onto hope.", 3.25),
          ("3 · ARGUABLE THEME", "about life or people beyond this play", "The playwrights argue that hope is both precious and unbearably fragile in the face of evil.", 1.75)]
@@ -253,7 +253,7 @@ notes(s, "SAY (Prather): If Anne's hopeful tone stood alone, the theme would be 
 
 # ---------------------------------------------------------------- 7 · LEAF
 s = new_slide(7, bg=PUR_L)
-header(s, "★", PUR_D, "Show Your Thinking", "Think first. Then say it.", "PACKET P. 1 · PURPLE STRIP", PUR)
+header(s, "★", PUR_D, "Show Your Thinking", "Think first. Then say it.", "PACKET P. 2 · PURPLE STRIP", PUR)
 rect(s, 0.5, 1.75, 12.33, 1.75, fill=WHITE, line=PUR, lw=2.5, dash=True)
 text(s, 0.85, 1.85, 11.7, 1.6, [[N("Candidate:  "), B("“Never give up hope.”", size=30)], [N("Is it a topic, advice, or an arguable idea? How would you turn it into a real theme statement?", size=18)]], size=22, anchor=MSO_ANCHOR.MIDDLE, spacing=1.1)
 pill(s, 0.5, 3.75, 3.4, "THINK SILENTLY · 30–45 SEC", PUR)
@@ -286,11 +286,11 @@ notes(s, "WRITE/WORK 3 min: My Ladder, check all four, write a backup candidate.
          "IF: topic -> Okay, that's the topic. I need the theme. Advice -> You gave me advice. Give me an idea about people. Plot -> That tells me what happens in this play. How can we turn that into an idea about people beyond Anne?\n"
          "CHART 2 min (Prather): take 2-3 scholar statements word for word. Test each: Is it arguable? Is it about life beyond this play? Can the tone/mood contrast serve as its evidence?\n"
          "Do NOT crown one correct theme. Leave at least two viable candidates posted for Mojo.\n"
-         "TRANSITION: Those stay up. Before we analyze this ending in Course Mojo, I want you to sit with it for a few minutes. Box 03, right below.")
+         "TRANSITION: Those stay up. Before we analyze this ending in Course Mojo, I want you to sit with it for a few minutes. Page 3.")
 
 # ---------------------------------------------------------------- 9 · Choice Board
 s = new_slide(9)
-header(s, "03", TEAL_D, "Closing the Play · Choice Board", "You have finished the play. Choose ONE task. 10 minutes.", "PACKET P. 2 · BOX 03", TEAL)
+header(s, "03", TEAL_D, "Closing the Play · Choice Board", "You have finished the play. Choose ONE task. 10 minutes.", "PACKET P. 3 · BOX 03", TEAL)
 opts = [("1", "Found Poem", "6–10 exact lines arranged to capture the contrast"),
         ("2", "Tone Map", "hope rising and falling, turning points labeled with quote + page"),
         ("3", "Six-Word Memoirs", "Anne · Mr. Frank · the audience, each with its line"),
@@ -307,11 +307,11 @@ notes(s, "SAY (Prather): You have finished The Diary of Anne Frank. Before we an
          "STEER quietly (Prather): stronger writers -> Option 1 or 5, two cited lines. Easier entry -> Option 2 or 3 with the starter stems. Same evidence requirement for everyone.\n"
          "PACE: 28 'Your line and page should be written.' 33 'Two minutes. Check your page number.' 35 'Pencils down.'\n"
          "TIME RULE: First thing to cut if behind. Unfinished = homework only if you direct it. Never take time from Mojo.\n"
-         "TRANSITION: Hold onto that feeling. Now we're going to prove what this ending does. Course Mojo, Lesson 6. Page 3. Sit with your partner.")
+         "TRANSITION: Hold onto that feeling. Now we're going to prove what this ending does. Course Mojo, Lesson 6. Page 4. Sit with your partner.")
 
 # ---------------------------------------------------------------- 10 · Course Mojo
 s = new_slide(10)
-header(s, "04", PUR_D, "Course Mojo · Lesson 6", "Part A with your partner → Part B discussion → three reads → write", "PACKET P. 3 · BOX 04", PUR)
+header(s, "04", PUR_D, "Course Mojo · Lesson 6", "Part A with your partner → Part B discussion → three reads → write", "PACKET P. 4 · BOX 04", PUR)
 rect(s, 0.5, 1.75, 7.6, 5.0, fill=PUR_L)
 text(s, 0.85, 1.9, 7.0, 0.35, "TARGET TASK", size=13, bold=True, color=PUR_D)
 text(s, 0.85, 2.3, 7.0, 4.35, "At the very end of the play, we hear Anne say in a voice-over, “In spite of everything, I still believe that people are really good at heart” (p. 778). What is Anne’s tone in these lines? How does the contrast between her tone and the mood of the scene develop the theme of the play? Provide specific evidence from the text to support your answer.", size=19, spacing=1.08)
@@ -331,7 +331,7 @@ notes(s, "PART A (35-45): Read the Target Task once aloud so partners know where
 
 # ---------------------------------------------------------------- 11 · Independent Writing
 s = new_slide(11)
-header(s, "04", PUR_D, "On Your Own · Target Task", "Silent. Independent. Focused literary analysis, not a five-paragraph essay.", "PACKET PP. 3–4 · RESPONSE", PUR)
+header(s, "04", PUR_D, "On Your Own · Target Task", "Silent. Independent. Focused literary analysis, not a five-paragraph essay.", "PACKET P. 5 · RESPONSE", PUR)
 rect(s, 0.5, 1.75, 7.0, 3.55, fill=WHITE, line=PUR, lw=2)
 text(s, 0.8, 1.85, 6.5, 0.35, "MY RESPONSE MUST HAVE", size=13, bold=True, color=PUR_D)
 text(s, 0.8, 2.25, 6.5, 3.0, ["☐  A tone word I can defend + Anne’s diction", "☐  The mood + what the audience knows", "☐  An arguable theme", [N("☐  "), B("How"), N(" the contrast develops the theme")], [N("☐  At least "), B("two"), N(" cited pieces of evidence")]], size=17, spacing=1.2)
@@ -340,15 +340,15 @@ text(s, 8.05, 1.85, 4.6, 0.35, "MILESTONES CHECK", size=13, bold=True, color=YEL
 text(s, 8.05, 2.25, 4.6, 3.0, [[B("Claim: "), N("Is my theme arguable?")], [B("Evidence: "), N("Did I cite precise lines + pages?")], [B("Reasoning: "), N("Did I explain how the contrast develops the theme?")]], size=17, spacing=1.2)
 dark_bar(s, 5.55, 1.2, "You told me what the line says. Now tell me how it develops your theme.", size=20)
 notes(s, "SAY: Thirteen minutes. Silent and on your own. Your claim is your theme. Two pieces of evidence with page numbers. After each one, explain how that line helps the contrast develop your theme.\n"
-         "If your class submits on Course Mojo, scholars type there; pp. 3-4 are the plan and backup.\n"
+         "If your class submits on Course Mojo, scholars type there; p. 4 is the plan, p. 5 the backup.\n"
          "WHISPER ONLY: You told me what the line says. How does that line help develop your theme? / You named the contrast. Now tell me the so what. / Could you point to Tuesday's map and prove that theme?\n"
-         "Morehouse: point to the 'Need a start?' frame on p. 3; the response stays independent. Done early: stretch line on p. 4.\n"
+         "Morehouse: point to the 'Need a start?' frame on p. 4; the response stays independent. Done early: stretch line on p. 5.\n"
          "PACE: 57 tone and mood down. 61 explaining how the contrast develops your theme. 64 finish your sentence.\n"
-         "TRANSITION: Pencils down. Find the dashed line on page 4. Exit ticket. On your own.")
+         "TRANSITION: Pencils down. Find the dashed line on page 5. Exit ticket. On your own.")
 
 # ---------------------------------------------------------------- 12 · Exit + Night
 s = new_slide(12)
-header(s, "05", COR_D, "Exit Ticket · On Your Own", "Silent. Independent. Then we close the play.", "PACKET P. 4 · BOX 05", COR)
+header(s, "05", COR_D, "Exit Ticket · On Your Own", "Silent. Independent. Then we close the play.", "PACKET P. 5 · BOX 05", COR)
 rect(s, 0.5, 1.75, 7.4, 5.0, fill=WHITE, line=COR, lw=2.5)
 prompts = ["The theme of The Diary of Anne Frank is ______. (an arguable sentence)", "The evidence that best develops it is ______ (p. ___).", "Anne’s legacy, to me, is ______."]
 for i, p in enumerate(prompts):

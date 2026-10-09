@@ -4,7 +4,7 @@ Prather Week 2, Day 3, taught as Week 9.
 
 | File | What it is |
 |---|---|
-| `Week9_Day3_Student_Packet.pdf` | 4-page universal student packet (US Letter, print single-sided) |
+| `Week9_Day3_Student_Packet.pdf` | 5-page universal student packet (large print, open answer boxes) (US Letter, print single-sided) |
 | `Week9_Day3_Teacher_Copy.pdf` | 13-page landscape teach-through: lesson at a glance, text + key, then one page per segment |
 | `Week9_Day3_Slides.pptx` | 12 slides with speaker notes |
 | `src/` | Editable sources: `student_packet.html` + `packet.css`, `teacher_copy.html` + `teacher.css`, `build_slides.py`, `build.py` |
