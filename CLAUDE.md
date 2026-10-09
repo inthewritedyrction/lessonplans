@@ -57,8 +57,8 @@ another teacher-copy exemplar is provided.
 
 | Deliverable | Format | Notes |
 |---|---|---|
-| Student packet | PDF (US Letter, as many pages as needed, ~5) | **Readability first:** large print (~11.5pt body, ~13pt prompts) so scholars can see it; page count can grow. Built from HTML via WeasyPrint |
-| Teacher copy | PDF (landscape) | Day 2 structure, **large print: body 10–11.5pt** (Ms. Briggs wears glasses); split summary pages (1 of 2 / 2 of 2) rather than shrink type |
+| Student packet / classwork | PDF (US Letter, **4–6 pages is fine**) | **Readability + writing room first:** large print (~11.5pt body, ~13pt prompts) and big open answer boxes. Never shrink type or boxes to hit a page count. Built from HTML via WeasyPrint |
+| Teacher copy | PDF (landscape) | Day 2 structure, **permanent: body 10–11.5pt, headings larger** (Ms. Briggs wears glasses; this overrides any smaller size in a lesson spec); split summary pages (1 of 2 / 2 of 2) rather than shrink type |
 | Slide deck | PPTX (16:9, ~12 slides) | speaker notes carry condensed script |
 
 Always commit the **editable source files** (HTML/CSS, build scripts, etc.) alongside the
