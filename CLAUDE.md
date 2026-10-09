@@ -64,6 +64,16 @@ another teacher-copy exemplar is provided.
 Always commit the **editable source files** (HTML/CSS, build scripts, etc.) alongside the
 outputs so materials can be revised later.
 
+## Source mapping + build pipeline
+
+- Prather (Week 2) page numbers ≠ this edition. Act II mapping used Day 2–3: Prather pp. 86–101 = pp. 766–778;
+  Prather p. 101 = p. 778. Act II printed page = PDF page + 700. Always use this edition's pages in materials.
+- Course Mojo is the platform scholars log into. Don't reproduce or invent its Driving Questions / Criteria; use
+  only what the Prather plan states.
+- Build pattern (see `lessons/week09/day3/`): packet HTML/CSS + teacher HTML/CSS → WeasyPrint; `build.py` renders
+  packet thumbnails with the active `data-hl` box outlined; slides via python-pptx using the Day 2 deck's master.
+- Don't commit the Prather plan or the play PDF (copyrighted source material).
+
 ## Formatting conventions
 
 **Student packet**

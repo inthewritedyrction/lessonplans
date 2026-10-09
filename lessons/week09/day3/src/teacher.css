@@ -1,0 +1,111 @@
+/* Week 9 teacher copy styles — matches the Day 2 teacher copy exemplar. */
+@page { size: letter landscape; margin: 0.32in 0.34in 0.42in 0.34in;
+  @bottom-left  { content: "WEEK 9 · DAY 3 · TEACHER COPY · THEME AND LEGACY: CLOSING THE PLAY · MS. BRIGGS"; font: 6.6pt "TeX Gyre Adventor"; letter-spacing: .12em; color: #9aa6ad; }
+  @bottom-right { content: "TEACHER COPY · PAGE " counter(page); font: 6.6pt "TeX Gyre Adventor"; letter-spacing: .12em; color: #9aa6ad; }
+}
+:root {
+  --ink: #1e2a32; --muted: #5a6b75; --line: #d6dce0;
+  --yellow: #ffc63c; --yellow-d: #a87500; --yellow-l: #fff1c9;
+  --blue: #3b74e8; --blue-d: #2a56b5; --blue-l: #dce7fb;
+  --purple: #8b6be8; --purple-d: #6746c7; --purple-l: #ece5ff;
+  --teal: #00a39b; --teal-d: #007a73; --teal-l: #d4f3ee;
+  --coral: #ff6b4e; --coral-d: #df442a; --coral-l: #ffe4da;
+  --cream: #fffbf4;
+}
+* { box-sizing: border-box; }
+html { font-family: "TeX Gyre Adventor", "Century Gothic", sans-serif; color: var(--ink); font-size: 9.4pt; line-height: 1.27; }
+body { margin: 0; }
+.page { page-break-after: always; }
+.page:last-child { page-break-after: auto; }
+b { font-weight: bold; }
+i, em { font-style: italic; }
+p { margin: 0 0 3px; }
+
+/* title bar */
+.hbar { display: flex; align-items: center; gap: 10px; border-radius: 12px; padding: 6px 12px; color: #fff; margin-bottom: 7px; }
+.hbar .min { background: #fff; border-radius: 9px; padding: 2px 9px; font-weight: bold; font-size: 9.5pt; white-space: nowrap; }
+.hbar .tt { font-weight: bold; font-size: 11pt; text-transform: uppercase; letter-spacing: .02em; line-height: 1.1; }
+.hbar .st { font-size: 8pt; opacity: .95; }
+.hbar .grow { flex: 1; }
+.hbar .chip { font-size: 6.8pt; font-weight: bold; letter-spacing: .14em; background: rgba(255,255,255,.26); border-radius: 7px; padding: 3px 9px; white-space: nowrap; margin-left: 4px; }
+.hbar.yellow { background: var(--yellow); color: var(--ink); } .hbar.yellow .min { color: var(--yellow-d); } .hbar.yellow .chip { background: rgba(0,0,0,.08); }
+.hbar.blue { background: var(--blue); } .hbar.blue .min { color: var(--blue-d); }
+.hbar.purple { background: var(--purple); } .hbar.purple .min { color: var(--purple-d); }
+.hbar.teal { background: var(--teal); } .hbar.teal .min { color: var(--teal-d); }
+.hbar.coral { background: var(--coral); } .hbar.coral .min { color: var(--coral-d); }
+.hbar.ink { background: var(--ink); } .hbar.ink .min { color: var(--ink); }
+
+/* segment layout */
+.seg { display: flex; gap: 16px; }
+.seg .left { flex: 0 0 4.55in; }
+.seg .right { flex: 1; }
+.plabel { font-size: 6.8pt; font-weight: bold; letter-spacing: .14em; color: var(--muted); margin-bottom: 3px; text-transform: uppercase; }
+.thumbimg { width: 4.55in; border: 1.2px solid var(--line); border-radius: 8px; display: block; }
+
+/* beats */
+.beat { display: flex; gap: 9px; margin-bottom: 4px; }
+.beat .k { flex: 0 0 1.02in; text-align: right; font-size: 6.6pt; font-weight: bold; letter-spacing: .12em; text-transform: uppercase; padding-top: 2px; line-height: 1.2; color: var(--muted); }
+.beat .v { flex: 1; }
+.beat .v.say { border-left: 3px solid var(--teal); padding-left: 7px; }
+.beat .v.tr { border-left: 3px solid var(--coral); padding-left: 7px; font-weight: bold; }
+.beat .v.lf { border-left: 3px solid var(--purple); padding-left: 7px; }
+.k.teal { color: var(--teal-d); } .k.blue { color: var(--blue-d); } .k.purple { color: var(--purple-d); }
+.k.gold { color: var(--yellow-d); } .k.coral { color: var(--coral-d); } .k.gray { color: var(--muted); }
+.pr { display: inline-block; background: #8d9aa2; color: #fff; font-size: 5.8pt; font-weight: bold; letter-spacing: .12em; border-radius: 4px; padding: 0 4px; vertical-align: 1px; }
+.slide { font-style: italic; }
+
+/* LEAF */
+.leafbar { border: 2px dashed var(--purple); border-radius: 10px; background: var(--purple-l); padding: 4px 10px; margin-bottom: 6px; font-size: 8.6pt; }
+.flow { display: flex; gap: 4px; align-items: stretch; margin: 0 0 6px; }
+.flow div { flex: 1; background: var(--purple); color: #fff; border-radius: 7px; padding: 3px 5px; font-size: 7pt; font-weight: bold; text-align: center; line-height: 1.15; }
+.flow div.on { background: var(--purple-d); outline: 2px solid var(--yellow); }
+.flow span { align-self: center; color: var(--purple-d); font-weight: bold; }
+.lookfor { background: var(--yellow-l); border-radius: 9px; padding: 5px 9px; font-size: 8.4pt; margin-top: 6px; }
+.lookfor b.h { color: var(--yellow-d); font-size: 6.8pt; letter-spacing: .14em; display: block; }
+
+/* cards (pp. 1–2) */
+.cols { display: flex; gap: 12px; }
+.cols > div { flex: 1; }
+.card { border-radius: 10px; padding: 5px 10px 6px; margin-bottom: 6px; font-size: 8.8pt; }
+.card .h { display: block; font-size: 6.8pt; font-weight: bold; letter-spacing: .14em; text-transform: uppercase; margin-bottom: 1px; }
+.c-teal { background: var(--teal-l); } .c-teal .h { color: var(--teal-d); }
+.c-blue { background: var(--blue-l); } .c-blue .h { color: var(--blue-d); }
+.c-purple { background: var(--purple-l); } .c-purple .h { color: var(--purple-d); }
+.c-yellow { background: var(--yellow-l); } .c-yellow .h { color: var(--yellow-d); }
+.c-coral { background: var(--coral-l); } .c-coral .h { color: var(--coral-d); }
+.c-cream { background: var(--cream); border: 1.2px solid #ecdcc8; } .c-cream .h { color: var(--muted); }
+.c-leaf { background: var(--purple-l); border: 2px dashed var(--purple); } .c-leaf .h { color: var(--purple-d); }
+.c-red { border: 2px solid var(--coral); background: #fff; } .c-red .h { color: var(--coral-d); }
+h1 { font-size: 17pt; line-height: 1.08; margin: 0 0 2px; }
+.srcline { font-size: 8.6pt; color: var(--muted); margin-bottom: 6px; }
+
+table.ros { width: 100%; border-collapse: collapse; font-size: 8.2pt; }
+.ros td { border-top: 1px solid #ecdcc8; padding: 2.5px 4px; vertical-align: top; }
+.ros td.m { color: var(--teal-d); font-weight: bold; white-space: nowrap; width: 0.5in; }
+.ros td.p { width: 1.15in; color: var(--muted); font-size: 7.8pt; }
+.ros td.s { width: 0.62in; color: var(--muted); font-size: 7.8pt; }
+.ros tr.mojo td { background: var(--purple-l); }
+.check { list-style: none; padding: 0; margin: 0; font-size: 8.4pt; }
+.check li::before { content: "▢ "; font-weight: bold; }
+.check li { margin-bottom: 1px; }
+
+table.key { width: 100%; border-collapse: collapse; font-size: 8pt; }
+.key td { border-top: 1px solid #ecdcc8; padding: 2.5px 4px; vertical-align: top; }
+.key td.r { color: var(--purple-d); font-weight: bold; width: 0.85in; }
+.key td.q { width: 2.6in; }
+.key td.a { color: var(--muted); }
+table.mis { width: 100%; border-collapse: collapse; font-size: 8.1pt; }
+.mis td { border-top: 1px solid #f3d2c8; padding: 2.5px 4px; vertical-align: top; }
+.mis td.n { color: var(--coral-d); font-weight: bold; width: 0.15in; }
+.mis td.w { width: 1.55in; }
+.mis td.c { font-weight: bold; }
+.ph { white-space: nowrap; border: 1.6px dashed var(--coral); color: var(--coral-d); border-radius: 6px; padding: 1px 6px; font-weight: bold; font-size: 7.6pt; }
+
+/* page 1 density */
+.p1 .card { font-size: 8.1pt; line-height: 1.22; padding: 4px 9px 5px; margin-bottom: 5px; }
+.p1 h1 { font-size: 15pt; }
+.p1 .srcline { font-size: 8pt; margin-bottom: 4px; }
+.p1 table.ros { font-size: 7.7pt; }
+.p1 .ros td { padding: 1.6px 4px; }
+.p1 .ros td.p, .p1 .ros td.s { font-size: 7.3pt; }
+.p1 .check { font-size: 7.9pt; }
