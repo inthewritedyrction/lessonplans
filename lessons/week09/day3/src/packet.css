@@ -1,7 +1,7 @@
 /* Week 9 student packet styles — matches the Day 1/Day 2 exemplar packets. */
 @page { size: letter; margin: 0.42in 0.45in 0.5in 0.45in;
   @bottom-left  { content: "WEEK 9 · DAY 3 · ENCOUNTERING EVIL · GRADE 8 ELA · MS. BRIGGS"; font: 6.6pt "TeX Gyre Adventor"; letter-spacing: .12em; color: #9aa6ad; }
-  @bottom-right { content: "PAGE " counter(page) " OF 3"; font: 6.6pt "TeX Gyre Adventor"; letter-spacing: .12em; color: #9aa6ad; }
+  @bottom-right { content: "PAGE " counter(page) " OF 4"; font: 6.6pt "TeX Gyre Adventor"; letter-spacing: .12em; color: #9aa6ad; }
 }
 :root {
   --ink: #1e2a32; --muted: #5a6b75; --line: #cfd6db;
@@ -38,7 +38,7 @@ h1 { font-size: 17pt; line-height: 1.05; margin: 2px 0 1px; text-transform: uppe
 .lt .cap { color: var(--teal-d); display: block; margin-bottom: 1px; }
 
 /* box header bars */
-.bar { display: flex; align-items: center; gap: 9px; border-radius: 11px; padding: 6px 10px; color: #fff; margin: 0 0 5px; }
+.bar { display: flex; align-items: center; gap: 9px; border-radius: 11px; padding: 6px 10px; color: #fff; margin: 4px 0 6px; }
 .bar .num { width: 21px; height: 21px; border-radius: 50%; background: #fff; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 8.5pt; flex: none; }
 .bar .ttl { font-weight: bold; font-size: 11pt; letter-spacing: .02em; text-transform: uppercase; line-height: 1.05; }
 .bar .sub { font-size: 7.6pt; opacity: .95; }
@@ -83,7 +83,7 @@ table.ladder { width: 100%; border-collapse: separate; border-spacing: 0 4px; ma
 .ladder .mine { background: #fff; border: 1.2px solid var(--line); border-left: 0; border-radius: 0 8px 8px 0; }
 
 /* show your thinking strip */
-.think { border: 2px dashed var(--purple); border-radius: 10px; background: var(--purple-l); padding: 5px 10px 6px; margin-bottom: 5px; }
+.think { border: 2px dashed var(--purple); border-radius: 10px; background: var(--purple-l); padding: 6px 10px 7px; margin: 7px 0 5px; }
 .think .cap { color: var(--purple-d); }
 .think .q { font-size: 9.6pt; margin: 2px 0 4px; }
 .stems { display: flex; gap: 5px; }
@@ -118,7 +118,7 @@ table.ladder { width: 100%; border-collapse: separate; border-spacing: 0 4px; ma
 .reads div { flex: 1; border: 1.2px solid #cdbff5; border-radius: 7px; padding: 3px 7px; font-size: 7.6pt; line-height: 1.2; }
 .reads b { color: var(--purple-d); }
 .plan { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 5px; margin-bottom: 5px; }
-.plan > div { border: 1.2px solid var(--line); border-radius: 8px; padding: 3px 7px; height: 0.56in; font-size: 6.3pt; font-weight: bold; letter-spacing: .12em; color: var(--purple-d); text-transform: uppercase; }
+.plan > div { border: 1.2px solid var(--line); border-radius: 8px; padding: 3px 7px; height: 0.8in; font-size: 6.3pt; font-weight: bold; letter-spacing: .12em; color: var(--purple-d); text-transform: uppercase; }
 .plan > div span { font-weight: normal; letter-spacing: 0; text-transform: none; color: var(--muted); font-size: 7pt; }
 .musthave { display: flex; gap: 6px; margin-bottom: 4px; }
 .musthave .mh { flex: 1.55; border: 1.2px solid var(--line); border-radius: 8px; padding: 4px 8px; }
@@ -129,7 +129,7 @@ table.ladder { width: 100%; border-collapse: separate; border-spacing: 0 4px; ma
 .mh .checks div { width: 48%; }
 .need { font-size: 7.6pt; margin-bottom: 3px; }
 .lines { border: 1.2px solid var(--line); border-radius: 9px; background: repeating-linear-gradient(#fff 0, #fff 0.262in, #dfe4e7 0.262in, #dfe4e7 calc(0.262in + 1px)); background-position: 0 0.05in; }
-.stretch { font-size: 7.6pt; margin: 3px 0 0; }
+.stretch { font-size: 8.2pt; margin: 6px 0 0; }
 .stretch b { color: var(--purple-d); }
 
 /* exit ticket */
@@ -139,4 +139,4 @@ table.ladder { width: 100%; border-collapse: separate; border-spacing: 0 4px; ma
 .exit .top .cap { color: var(--coral-d); font-size: 7.4pt; }
 .exit .top .nm { border: 1.2px solid var(--line); border-radius: 7px; width: 2.5in; height: 0.24in; font-size: 6pt; letter-spacing: .14em; color: #75838c; padding: 2px 7px; }
 .exit .lbl { color: var(--coral-d); margin-top: 4px; }
-.exit .write { height: 0.4in; }
+.exit .write { height: 0.72in; }

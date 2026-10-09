@@ -57,7 +57,7 @@ another teacher-copy exemplar is provided.
 
 | Deliverable | Format | Notes |
 |---|---|---|
-| Student packet | PDF (US Letter, 3 pp.) | exemplars built from HTML via WeasyPrint |
+| Student packet | PDF (US Letter, 3–4 pp.) | 3 pp. default; go to 4 when the work needs room to breathe (Day 3 uses 4). Built from HTML via WeasyPrint |
 | Teacher copy | PDF (landscape) | Day 2 structure |
 | Slide deck | PPTX (16:9, ~12 slides) | speaker notes carry condensed script |
 
@@ -88,7 +88,7 @@ outputs so materials can be revised later.
   "CHUNK 1"), purple dashed SHOW YOUR THINKING strip (First I… / Then I noticed… /
   So I decided… / Because…).
 - Page-number pills on quotes. Students are "scholars."
-- Footer: `WEEK X · DAY X · ENCOUNTERING EVIL · GRADE 8 ELA · MS. BRIGGS` + `PAGE X OF 3`;
+- Footer: `WEEK X · DAY X · ENCOUNTERING EVIL · GRADE 8 ELA · MS. BRIGGS` + `PAGE X OF N`;
   pages 2+ carry a running header with the text title and DAY pill.
 
 **Teacher copy** (model: `Week9_Day2_Teacher_Copy.pdf`)

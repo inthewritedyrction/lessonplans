@@ -271,7 +271,7 @@ notes(s, "LEAF ACTION STEP. Place it here: after the ladder model, before schola
 
 # ---------------------------------------------------------------- 8 · Theme Test
 s = new_slide(8)
-header(s, "02", BLUE_D, "Build It. Test It.", "My Ladder → test it → backup candidate · 3 minutes", "PACKET P. 1 · BOX 02", BLUE)
+header(s, "02", BLUE_D, "Build It. Test It.", "My Ladder → test it → backup candidate · 3 minutes", "PACKET P. 2 · THEME TEST", BLUE)
 tests = ["A reasonable person could disagree.", "It applies beyond this one play.", "Tuesday’s tone/mood contrast can support it.", "It is an idea, not advice."]
 for i, t in enumerate(tests):
     x, y = 0.5 + (i % 2) * 3.95, 1.75 + (i // 2) * 1.75
@@ -286,7 +286,7 @@ notes(s, "WRITE/WORK 3 min: My Ladder, check all four, write a backup candidate.
          "IF: topic -> Okay, that's the topic. I need the theme. Advice -> You gave me advice. Give me an idea about people. Plot -> That tells me what happens in this play. How can we turn that into an idea about people beyond Anne?\n"
          "CHART 2 min (Prather): take 2-3 scholar statements word for word. Test each: Is it arguable? Is it about life beyond this play? Can the tone/mood contrast serve as its evidence?\n"
          "Do NOT crown one correct theme. Leave at least two viable candidates posted for Mojo.\n"
-         "TRANSITION: Those stay up. Before we analyze this ending in Course Mojo, I want you to sit with it for a few minutes. Page 2.")
+         "TRANSITION: Those stay up. Before we analyze this ending in Course Mojo, I want you to sit with it for a few minutes. Box 03, right below.")
 
 # ---------------------------------------------------------------- 9 · Choice Board
 s = new_slide(9)
@@ -331,7 +331,7 @@ notes(s, "PART A (35-45): Read the Target Task once aloud so partners know where
 
 # ---------------------------------------------------------------- 11 · Independent Writing
 s = new_slide(11)
-header(s, "04", PUR_D, "On Your Own · Target Task", "Silent. Independent. Focused literary analysis, not a five-paragraph essay.", "PACKET P. 3 · RESPONSE", PUR)
+header(s, "04", PUR_D, "On Your Own · Target Task", "Silent. Independent. Focused literary analysis, not a five-paragraph essay.", "PACKET PP. 3–4 · RESPONSE", PUR)
 rect(s, 0.5, 1.75, 7.0, 3.55, fill=WHITE, line=PUR, lw=2)
 text(s, 0.8, 1.85, 6.5, 0.35, "MY RESPONSE MUST HAVE", size=13, bold=True, color=PUR_D)
 text(s, 0.8, 2.25, 6.5, 3.0, ["☐  A tone word I can defend + Anne’s diction", "☐  The mood + what the audience knows", "☐  An arguable theme", [N("☐  "), B("How"), N(" the contrast develops the theme")], [N("☐  At least "), B("two"), N(" cited pieces of evidence")]], size=17, spacing=1.2)
@@ -340,15 +340,15 @@ text(s, 8.05, 1.85, 4.6, 0.35, "MILESTONES CHECK", size=13, bold=True, color=YEL
 text(s, 8.05, 2.25, 4.6, 3.0, [[B("Claim: "), N("Is my theme arguable?")], [B("Evidence: "), N("Did I cite precise lines + pages?")], [B("Reasoning: "), N("Did I explain how the contrast develops the theme?")]], size=17, spacing=1.2)
 dark_bar(s, 5.55, 1.2, "You told me what the line says. Now tell me how it develops your theme.", size=20)
 notes(s, "SAY: Thirteen minutes. Silent and on your own. Your claim is your theme. Two pieces of evidence with page numbers. After each one, explain how that line helps the contrast develop your theme.\n"
-         "If your class submits on Course Mojo, scholars type there; p. 3 is the plan and backup.\n"
+         "If your class submits on Course Mojo, scholars type there; pp. 3-4 are the plan and backup.\n"
          "WHISPER ONLY: You told me what the line says. How does that line help develop your theme? / You named the contrast. Now tell me the so what. / Could you point to Tuesday's map and prove that theme?\n"
-         "Morehouse: point to the 'Need a start?' frame on p. 3; the response stays independent. Done early: stretch line on p. 3.\n"
+         "Morehouse: point to the 'Need a start?' frame on p. 3; the response stays independent. Done early: stretch line on p. 4.\n"
          "PACE: 57 tone and mood down. 61 explaining how the contrast develops your theme. 64 finish your sentence.\n"
-         "TRANSITION: Pencils down. Find the dashed line on page 3. Exit ticket. On your own.")
+         "TRANSITION: Pencils down. Find the dashed line on page 4. Exit ticket. On your own.")
 
 # ---------------------------------------------------------------- 12 · Exit + Night
 s = new_slide(12)
-header(s, "05", COR_D, "Exit Ticket · On Your Own", "Silent. Independent. Then we close the play.", "PACKET P. 3 · BOX 05", COR)
+header(s, "05", COR_D, "Exit Ticket · On Your Own", "Silent. Independent. Then we close the play.", "PACKET P. 4 · BOX 05", COR)
 rect(s, 0.5, 1.75, 7.4, 5.0, fill=WHITE, line=COR, lw=2.5)
 prompts = ["The theme of The Diary of Anne Frank is ______. (an arguable sentence)", "The evidence that best develops it is ______ (p. ___).", "Anne’s legacy, to me, is ______."]
 for i, p in enumerate(prompts):
